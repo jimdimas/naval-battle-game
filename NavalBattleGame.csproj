@@ -7,8 +7,8 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{3F1AB906-0B25-4162-8FFB-C281C2C59F71}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <RootNamespace>NavmaxiaGame</RootNamespace>
-    <AssemblyName>NavmaxiaGame</AssemblyName>
+    <RootNamespace>NavalBattleGame</RootNamespace>
+    <AssemblyName>NavalBattleGame</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -121,6 +121,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <EmbeddedResource Include="forms\RegisterForm\RegisterForm.resx">
       <DependentUpon>RegisterForm.cs</DependentUpon>
